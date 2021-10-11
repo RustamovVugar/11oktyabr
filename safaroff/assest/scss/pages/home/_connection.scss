@@ -1,0 +1,41 @@
+@import "./bloq";
+#connection{
+    height: 800px;
+    padding-top: 100px;
+    
+     .right{
+         padding-left: 100px;
+     } 
+     span{
+         color:blue;
+         letter-spacing: 4px;
+         font-weight: 2000px;
+
+     }
+     i{
+         margin-right: 40px;
+         font-size: 20px;
+         padding-top: 10px;
+         border: 0.1px solid wheat;
+         width:40px;
+         height: 40px;
+         text-align: center;
+         border-radius: 50%;
+         &:hover{
+             background-color: blue;
+             color:white
+         }
+     }
+  h2{
+      font-size: 40px;
+      padding-top: 30px;
+      font-style: bold;
+      color: black;
+      font-weight: 2000px;
+      padding-bottom: 30px;
+  }
+  p{
+      color: black;
+      font-size: 17px;
+  }
+}

@@ -1,0 +1,36 @@
+@import"./projects";
+
+#advantage{
+    padding-top: 50px;
+    height:400px;
+    background-color: cornflowerblue;
+    color: white;
+    h2{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        padding-top: 10px;
+    }
+    .icon{
+        font-size: 60px; position: relative;
+        animation-name: example;
+        animation-duration: 5s;
+        &:hover{ @keyframes example {
+            100% {left:0px; right:0px;top:100px;}
+        }
+        }    }
+    .advantage-item2{ 
+        animation-name: example;
+        animation-duration: 5s;
+        &:hover{ @keyframes example {
+            50%  {left:50px; top:50px;bottom: 50px;}
+            
+        }
+          }}
+      
+    }
+
+

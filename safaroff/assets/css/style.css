@@ -1,0 +1,608 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: -12px;
+  margin-right: 12px;
+}
+
+.col-md-6 {
+  width: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 50px;
+}
+
+.col-sm-12 {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-md-3 {
+  width: calc(100%/12*3);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-md-4 {
+  width: calc(100%/12*4);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-md-8 {
+  width: calc(100%/12*8);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-lg-4 {
+  width: calc(100%/12*4);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.col-lg-8 {
+  width: calc(100%/12*8);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+header {
+  position: fixed;
+  height: 150px;
+  padding-top: 30px;
+  padding-right: 30px;
+  background-color: white;
+}
+
+header .logo {
+  margin-left: 70px;
+  margin-right: 340px;
+  padding-top: 30px;
+}
+
+header .flexible-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .flexible-header .navbar .menubar ul li {
+  display: inline-block;
+}
+
+header .flexible-header .navbar .menubar ul li .nav-item {
+  color: black;
+  text-decoration: none;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+header .flexible-header .navbar .menubar ul li .nav-item:hover {
+  color: blue;
+}
+
+header .flexible-header .navbar .menubar ul li .btn-primary {
+  margin-left: 80px;
+}
+
+header .flexible-header .navbar .menubar ul li .btn-primary:hover {
+  background-color: darkblue;
+}
+
+#intro {
+  height: 460px;
+  padding-top: 200px;
+}
+
+#intro .intro_item {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 1000px;
+  color: black;
+}
+
+#intro .intro_item .button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  width: 300px;
+}
+
+#intro .intro_item span {
+  color: dodgerblue;
+}
+
+#projects {
+  height: 3000px;
+  padding-top: 300px;
+}
+
+#projects .video-type {
+  padding-top: 100px;
+  font-size: 20px;
+}
+
+#projects .video-type h2 {
+  font-size: 30px;
+}
+
+#projects .video-type p {
+  color: lightslategray;
+  font-size: 15px;
+}
+
+#projects .projects-type h2 {
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+#projects .projects-type p {
+  color: lightslategray;
+  font-size: 15px;
+}
+
+#projects .vebsayt {
+  height: 30px;
+  width: 80px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#projects .projects_item1 {
+  border: 60px solid darkolivegreen;
+  background-color: darkolivegreen;
+  padding-bottom: 30px;
+}
+
+#projects .projects_item1 .image-item1 {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .projects_item1 .image-item1:hover {
+  -webkit-transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+          transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+}
+
+#projects .projects_item2 {
+  border: 60px solid dodgerblue;
+  background-color: dodgerblue;
+  padding-bottom: 30px;
+}
+
+#projects .projects_item2 .image-item2 {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .projects_item2 .image-item2:hover {
+  -webkit-transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+          transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+}
+
+#projects .projects_item3 {
+  border: 60px solid firebrick;
+  background-color: firebrick;
+  padding-bottom: 30px;
+}
+
+#projects .projects_item3 .image-item3 {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .projects_item3 .image-item3:hover {
+  -webkit-transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+          transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+}
+
+#projects .projects_item4 {
+  border: 60px solid red;
+  background-color: red;
+}
+
+#projects .projects_item4 .image-item4 {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .projects_item4 .image-item4:hover {
+  -webkit-transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+          transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+}
+
+#projects .projects_item5 {
+  border: 60px solid blue;
+  background-color: blue;
+}
+
+#projects .projects_item5 .image-item5 {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .projects_item5 .image-item5:hover {
+  -webkit-transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+          transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+}
+
+#projects .projects_item6 {
+  border: 60px solid blue;
+  background-color: blue;
+}
+
+#projects .projects_item6 .image-item6 {
+  width: 100%;
+  height: 100%;
+}
+
+#projects .projects_item6 .image-item6:hover {
+  -webkit-transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+          transform: perspective(300px) scale3d(1, 1, 1) translateZ(50px);
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+}
+
+#advantage {
+  padding-top: 50px;
+  height: 400px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#advantage h2 {
+  font-size: 60px;
+}
+
+#advantage h3 {
+  font-size: 20px;
+}
+
+#advantage p {
+  padding-top: 10px;
+}
+
+#advantage .icon {
+  font-size: 60px;
+  position: relative;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@-webkit-keyframes example {
+  100% {
+    left: 0px;
+    right: 0px;
+    top: 100px;
+  }
+}
+
+@keyframes example {
+  100% {
+    left: 0px;
+    right: 0px;
+    top: 100px;
+  }
+}
+
+#advantage .advantage-item2 {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@keyframes example {
+  50% {
+    left: 50px;
+    top: 50px;
+    bottom: 50px;
+  }
+}
+
+#works {
+  height: 800px;
+  background-color: lightgray;
+  padding-top: 80px;
+}
+
+#works h2 {
+  font-size: 50px;
+  color: black;
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+#works h5 {
+  color: black;
+  padding-top: 30px;
+}
+
+#works p {
+  padding-top: 20px;
+  color: gray;
+}
+
+#customer {
+  height: 1000px;
+  padding-top: 100px;
+}
+
+#customer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#customer .links .link1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+  border: 1px solid cornflowerblue;
+  background-color: cornflowerblue;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+#customer .links .link1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100px;
+}
+
+#customer .links .link2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 35px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  text-align: center;
+  width: 80px;
+  height: 25px;
+}
+
+#customer .links .link2:hover {
+  background-color: cornflowerblue;
+}
+
+#customer .links .link2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100px;
+}
+
+#customer .links .link2 a:hover {
+  color: white;
+}
+
+#customer .links .link3 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  text-align: center;
+  width: 80px;
+  height: 25px;
+}
+
+#customer .links .link3:hover {
+  background-color: cornflowerblue;
+}
+
+#customer .links .link3 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100px;
+}
+
+#customer .links .link3 a:hover {
+  color: white;
+}
+
+#customer h2 {
+  font-size: 50px;
+  font-style: bold;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#customer .pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#customer .pictures ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+}
+
+#customer .pictures ul li {
+  padding: 11px;
+  color: gray;
+  font-size: 50%;
+}
+
+#customer .pictures ul li img {
+  color: grey;
+}
+
+#customer .picture-section {
+  padding-top: 50px;
+  width: 100%;
+  height: 450px;
+}
+
+#blog {
+  height: 550px;
+  border-bottom: 1px solid lightslategray;
+}
+
+#blog h2 {
+  font-size: 50px;
+  font-weight: 2000px;
+  color: black;
+  font-style: bold;
+}
+
+#blog .bloq1 {
+  width: 350px;
+  height: 300px;
+  padding-top: 40px;
+}
+
+#blog .design {
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  text-align: center;
+  width: 60px;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#blog h4 {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#blog h4:hover {
+  color: blue;
+}
+
+#blog h5 {
+  padding-top: 40px;
+  font-size: 22px;
+}
+
+#blog h5:hover {
+  color: blue;
+}
+
+#blog p {
+  color: lightslategray;
+}
+
+#blog span {
+  color: lightslategray;
+  padding-top: 40px;
+}
+
+#connection {
+  height: 800px;
+  padding-top: 100px;
+}
+
+#connection .right {
+  padding-left: 100px;
+}
+
+#connection span {
+  color: blue;
+  letter-spacing: 4px;
+  font-weight: 2000px;
+}
+
+#connection i {
+  margin-right: 40px;
+  font-size: 20px;
+  padding-top: 10px;
+  border: 0.1px solid wheat;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#connection i:hover {
+  background-color: blue;
+  color: white;
+}
+
+#connection h2 {
+  font-size: 40px;
+  padding-top: 30px;
+  font-style: bold;
+  color: black;
+  font-weight: 2000px;
+  padding-bottom: 30px;
+}
+
+#connection p {
+  color: black;
+  font-size: 17px;
+}

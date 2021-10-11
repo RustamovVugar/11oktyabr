@@ -1,0 +1,46 @@
+@import"./customer";
+#blog{
+height:550px;
+border-bottom: 1px solid lightslategray;
+h2{
+    font-size: 50px;
+    font-weight: 2000px;
+    color:black;
+    font-style: bold;
+}
+.bloq1{
+    width:350px;
+    height: 300px;
+    padding-top: 40px;
+}
+.design{
+    border:1px solid lightgrey ;
+    background-color:lightgrey;
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    margin-top:10px;
+    font-size: 13px;
+}
+h4{
+    padding-top: 15px;
+    font-size: 20px;
+    &:hover{
+        color:blue;
+    }
+}
+h5{
+    padding-top:40px ;
+    font-size: 22px;
+    &:hover{
+        color:blue;
+    }
+}
+p{
+    color:lightslategray;
+}
+span{
+    color:lightslategray;
+    padding-top: 40px;
+}
+}

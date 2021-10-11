@@ -1,0 +1,28 @@
+@import"./pages/home/connection";
+@media only screen and (max-width: 992px) {
+    header .menubar{
+        display: block;
+    }
+      #intro .intro_item{
+          font-size:20px;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    header .menubar{
+        display: block;
+    }
+      #intro .intro_item{
+          font-size:20px;
+      }
+}
+
+
+@media only screen and (max-width: 500px) {
+    header .menubar{
+        display: block;
+    }
+      #intro .intro_item{
+          font-size:20px;
+      }
+}

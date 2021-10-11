@@ -1,0 +1,21 @@
+@import"./main";
+@import"./header";
+#intro{
+    height:460px;
+    padding-top: 200px;
+    .intro_item{
+        padding-top: 50px;
+        font-size: 30px;
+        font-weight:1000px;
+        color: black;
+        .button{
+            background-color:dodgerblue;
+            color: white;
+            border: none;
+            width: 300px;
+        }
+    }
+    .intro_item span{
+     color: dodgerblue;
+    }
+}
